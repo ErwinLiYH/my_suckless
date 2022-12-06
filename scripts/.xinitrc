@@ -9,6 +9,6 @@ xinput set-prop ${touchpad_id} ${tap_click_id} 1
 # xrandr
 
 # feh wallpaper
-feh --bg-fill /usr/share/backgrounds/archlinux/archwave.png
+feh --bg-fill /usr/share/backgrounds/archlinux/conference.png
 
 exec dwm
