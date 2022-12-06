@@ -6,6 +6,10 @@ tap_click_id=$(xinput list-props ${touchpad_id} | grep -o "libinput Tapping Enab
 xinput set-prop ${touchpad_id} ${natural_scrolling_id} 1
 xinput set-prop ${touchpad_id} ${tap_click_id} 1
 
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
+
 # xrandr
 
 # feh wallpaper
