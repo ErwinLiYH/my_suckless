@@ -1,3 +1,5 @@
+fcitx5 -d
+
 dwm_datetime(){
     echo $(date "+%y-%m-%d %a %T")
 }
